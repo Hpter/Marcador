@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+header, footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+.scoreboard {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    margin-top: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+}
+
+#status {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestor de Partido</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/macador.jpg" type="image/x-icon">
+    
+</head>
+<body>
+
+<header>
+    <h1>Gestor de Partido</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Marcador</h2>
+
+        <div class="scoreboard">
+            <div>
+                <h3>Equipo A</h3>
+                <p id="scoreA">0</p>
+                <button id="addA">+1 punto</button>
+            </div>
+
+            <div>
+                <h3>Equipo B</h3>
+                <p id="scoreB">0</p>
+                <button id="addB">+1 punto</button>
+            </div>
+        </div>
+
+        <button id="reset">Reiniciar marcador</button>
+
+        <p id="status" aria-live="polite"></p>
+    </section>
+
+    <section>
+        <h2>Jugadores</h2>
+
+        <form id="playerForm">
+            <label for="playerName">Nombre del jugador:</label>
+            <input type="text" id="playerName">
+            <button type="submit">Añadir</button>
+        </form>
+
+        <p id="playerMessage" aria-live="polite"></p>
+
+        <ul id="playerList"></ul>
+    </section>
+</main>
+
+<footer>
+    <p>Proyecto educativo</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
